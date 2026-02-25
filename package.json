@@ -1,0 +1,12 @@
+{
+  "name": "pokemon-go-il",
+  "version": "1.0.0",
+  "description": "Pokemon GO IL community portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "sync": "node scripts/sync-pokemon-db.js",
+    "check": "node --check server.js && node --check public/app.js && node --check scripts/sync-pokemon-db.js"
+  }
+}

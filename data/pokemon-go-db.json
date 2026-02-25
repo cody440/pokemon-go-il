@@ -1,0 +1,323 @@
+{
+  "metadata": {
+    "source": "Offline fallback dataset (network unavailable)",
+    "lastSyncedAt": "2026-02-25T12:56:43.290Z",
+    "pokemonCount": 10
+  },
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "bulbasaur",
+      "displayName": "Bulbasaur",
+      "pokedexNumber": 1,
+      "types": [
+        "grass",
+        "poison"
+      ],
+      "stats": {
+        "attack": 118,
+        "defense": 111,
+        "stamina": 128
+      },
+      "forms": [
+        "bulbasaur"
+      ],
+      "variants": {
+        "shiny": true,
+        "shadow": true,
+        "costume": false,
+        "event": false
+      },
+      "rarityTier": "common"
+    },
+    {
+      "id": 2,
+      "name": "charmander",
+      "displayName": "Charmander",
+      "pokedexNumber": 2,
+      "types": [
+        "fire"
+      ],
+      "stats": {
+        "attack": 116,
+        "defense": 93,
+        "stamina": 118
+      },
+      "forms": [
+        "charmander"
+      ],
+      "variants": {
+        "shiny": true,
+        "shadow": true,
+        "costume": false,
+        "event": false
+      },
+      "rarityTier": "common"
+    },
+    {
+      "id": 3,
+      "name": "squirtle",
+      "displayName": "Squirtle",
+      "pokedexNumber": 3,
+      "types": [
+        "water"
+      ],
+      "stats": {
+        "attack": 94,
+        "defense": 121,
+        "stamina": 127
+      },
+      "forms": [
+        "squirtle"
+      ],
+      "variants": {
+        "shiny": true,
+        "shadow": true,
+        "costume": true,
+        "event": false
+      },
+      "rarityTier": "common"
+    },
+    {
+      "id": 4,
+      "name": "pikachu",
+      "displayName": "Pikachu",
+      "pokedexNumber": 4,
+      "types": [
+        "electric"
+      ],
+      "stats": {
+        "attack": 112,
+        "defense": 96,
+        "stamina": 111
+      },
+      "forms": [
+        "pikachu"
+      ],
+      "variants": {
+        "shiny": true,
+        "shadow": true,
+        "costume": false,
+        "event": true
+      },
+      "rarityTier": "common"
+    },
+    {
+      "id": 5,
+      "name": "machamp",
+      "displayName": "Machamp",
+      "pokedexNumber": 5,
+      "types": [
+        "fighting"
+      ],
+      "stats": {
+        "attack": 234,
+        "defense": 159,
+        "stamina": 207
+      },
+      "forms": [
+        "machamp"
+      ],
+      "variants": {
+        "shiny": true,
+        "shadow": true,
+        "costume": false,
+        "event": false
+      },
+      "rarityTier": "rare"
+    },
+    {
+      "id": 6,
+      "name": "gengar",
+      "displayName": "Gengar",
+      "pokedexNumber": 6,
+      "types": [
+        "ghost",
+        "poison"
+      ],
+      "stats": {
+        "attack": 261,
+        "defense": 149,
+        "stamina": 155
+      },
+      "forms": [
+        "gengar"
+      ],
+      "variants": {
+        "shiny": true,
+        "shadow": true,
+        "costume": true,
+        "event": false
+      },
+      "rarityTier": "rare"
+    },
+    {
+      "id": 7,
+      "name": "snorlax",
+      "displayName": "Snorlax",
+      "pokedexNumber": 7,
+      "types": [
+        "normal"
+      ],
+      "stats": {
+        "attack": 190,
+        "defense": 169,
+        "stamina": 330
+      },
+      "forms": [
+        "snorlax"
+      ],
+      "variants": {
+        "shiny": true,
+        "shadow": true,
+        "costume": false,
+        "event": false
+      },
+      "rarityTier": "rare"
+    },
+    {
+      "id": 8,
+      "name": "dragonite",
+      "displayName": "Dragonite",
+      "pokedexNumber": 8,
+      "types": [
+        "dragon",
+        "flying"
+      ],
+      "stats": {
+        "attack": 263,
+        "defense": 198,
+        "stamina": 209
+      },
+      "forms": [
+        "dragonite"
+      ],
+      "variants": {
+        "shiny": true,
+        "shadow": true,
+        "costume": false,
+        "event": true
+      },
+      "rarityTier": "rare"
+    },
+    {
+      "id": 9,
+      "name": "mewtwo",
+      "displayName": "Mewtwo",
+      "pokedexNumber": 9,
+      "types": [
+        "psychic"
+      ],
+      "stats": {
+        "attack": 300,
+        "defense": 182,
+        "stamina": 214
+      },
+      "forms": [
+        "mewtwo"
+      ],
+      "variants": {
+        "shiny": true,
+        "shadow": true,
+        "costume": true,
+        "event": false
+      },
+      "rarityTier": "legendary"
+    },
+    {
+      "id": 10,
+      "name": "mew",
+      "displayName": "Mew",
+      "pokedexNumber": 10,
+      "types": [
+        "psychic"
+      ],
+      "stats": {
+        "attack": 210,
+        "defense": 210,
+        "stamina": 225
+      },
+      "forms": [
+        "mew"
+      ],
+      "variants": {
+        "shiny": true,
+        "shadow": true,
+        "costume": false,
+        "event": false
+      },
+      "rarityTier": "mythical"
+    }
+  ],
+  "tradeOptions": {
+    "variantMultipliers": {
+      "shiny": 1.25,
+      "shadow": 1.2,
+      "purified": 1.08,
+      "lucky": 1.12,
+      "event": 1.18,
+      "costume": 1.1,
+      "legacyMove": 1.2
+    },
+    "rarityMultipliers": {
+      "common": 1,
+      "rare": 1.1,
+      "legendary": 1.45,
+      "mythical": 1.7
+    }
+  },
+  "events": [
+    {
+      "id": "community-day",
+      "title": "Community Day",
+      "start": "2026-03-01T17:00:00.000Z",
+      "end": "2026-03-01T20:00:00.000Z",
+      "description": "בונוסים מוגברים, יותר הופעות בשטח ומתקפות מיוחדות בהתפתחות.",
+      "boostTypes": [
+        "grass",
+        "fire",
+        "water"
+      ]
+    },
+    {
+      "id": "raid-hour",
+      "title": "Raid Hour",
+      "start": "2026-02-27T18:00:00.000Z",
+      "end": "2026-02-27T19:00:00.000Z",
+      "description": "שעת ריידים מוגברת עם בוסים נבחרים.",
+      "boostTypes": [
+        "dragon",
+        "dark"
+      ]
+    },
+    {
+      "id": "spotlight-hour",
+      "title": "Spotlight Hour",
+      "start": "2026-02-26T18:00:00.000Z",
+      "end": "2026-02-26T19:00:00.000Z",
+      "description": "הופעה מוגברת של פוקימון ספציפי ובונוס XP/סטארדאסט.",
+      "boostTypes": [
+        "electric",
+        "fairy"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "title": "Pokemon GO Live",
+      "url": "https://pokemongolive.com"
+    },
+    {
+      "title": "Silph Road (Archive)",
+      "url": "https://thesilphroad.com"
+    },
+    {
+      "title": "PokeBattler",
+      "url": "https://www.pokebattler.com"
+    },
+    {
+      "title": "PvPoke",
+      "url": "https://pvpoke.com"
+    }
+  ]
+}
