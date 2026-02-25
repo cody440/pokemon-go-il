@@ -1,0 +1,75 @@
+:root {
+  --bg: #0f172a;
+  --card: #111827;
+  --text: #e5e7eb;
+  --accent: #22d3ee;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(160deg, #020617, #0f172a);
+  color: var(--text);
+}
+header {
+  padding: 24px;
+  border-bottom: 1px solid #334155;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+nav button {
+  background: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+  border-radius: 999px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+main { padding: 20px; }
+.card {
+  background: rgba(17, 24, 39, 0.9);
+  border: 1px solid #334155;
+  border-radius: 14px;
+  padding: 18px;
+}
+.clean-list { list-style: none; padding: 0; }
+.clean-list li { margin-bottom: 8px; }
+a { color: var(--accent); }
+.grid {
+  margin-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 10px;
+}
+.poke-card {
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 8px;
+  background: #0b1220;
+}
+table { width: 100%; border-collapse: collapse; }
+th, td { border-bottom: 1px solid #334155; padding: 8px; text-align: right; }
+.trade-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+.trade-item {
+  border: 1px solid #334155;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+label { display: inline-block; margin: 2px 6px; }
+pre {
+  background: #020617;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+@media (max-width: 860px) {
+  .trade-layout { grid-template-columns: 1fr; }
+}

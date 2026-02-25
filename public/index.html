@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>פוקימון גו בע״מ</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>פוקימון גו בע״מ</h1>
+      <p>פורטל קהילה חכם עם מידע אוטומטי, Pokédex ומחשבון טריידים מבוסס AI</p>
+      <nav id="nav"></nav>
+    </header>
+
+    <main id="app"></main>
+
+    <template id="page-links">
+      <section class="card">
+        <h2>דף קישורים</h2>
+        <ul id="links-list" class="clean-list"></ul>
+      </section>
+    </template>
+
+    <template id="page-alerts">
+      <section class="card">
+        <h2>דף התרעות איוונטים</h2>
+        <div id="alerts-list"></div>
+      </section>
+    </template>
+
+    <template id="page-types">
+      <section class="card">
+        <h2>מדריך חוזקות סוגים</h2>
+        <table>
+          <thead><tr><th>סוג תוקף</th><th>חזק נגד</th><th>חלש נגד</th></tr></thead>
+          <tbody id="types-table"></tbody>
+        </table>
+      </section>
+    </template>
+
+    <template id="page-pokedex">
+      <section class="card">
+        <h2>Pokédex</h2>
+        <input id="pokedex-search" placeholder="חיפוש פוקימון..." />
+        <div id="pokedex-grid" class="grid"></div>
+      </section>
+    </template>
+
+    <template id="page-calendar">
+      <section class="card">
+        <h2>לוח שנה</h2>
+        <div id="calendar"></div>
+      </section>
+    </template>
+
+    <template id="page-trade">
+      <section class="card">
+        <h2>AI Trade Value Calculator</h2>
+        <p>בחר מה אתה נותן ומה הצד השני נותן, כולל ווריאנטים (Shiny/Shadow/Event וכו׳).</p>
+        <div class="trade-layout">
+          <div>
+            <h3>הצד שלך</h3>
+            <div id="left-side"></div>
+            <button data-add="left">+ הוסף פוקימון</button>
+          </div>
+          <div>
+            <h3>הצד השני</h3>
+            <div id="right-side"></div>
+            <button data-add="right">+ הוסף פוקימון</button>
+          </div>
+        </div>
+        <button id="evaluate">חשב שווי טרייד</button>
+        <pre id="trade-result"></pre>
+      </section>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
